@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff !important;
+}
+
+.container-fluid {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2d3748;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.table thead {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table th {
+  border-bottom: 2px solid #667eea;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.table td {
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background-color: #f7fafc;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.badge {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.badge-primary {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.error {
+  color: #e53e3e;
+  padding: 15px;
+  background-color: #fff5f5;
+  border-left: 4px solid #e53e3e;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.ranking-badge {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+}
+
+.ranking-badge.gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+}
+
+.ranking-badge.silver {
+  background: linear-gradient(135deg, #9ca3af 0%, #6b7280 100%);
+}
+
+.ranking-badge.bronze {
+  background: linear-gradient(135deg, #ea8c55 0%, #d97706 100%);
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #667eea !important;
+  text-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 15px;
+  }
+  
+  .table {
+    font-size: 0.875rem;
+  }
+  
+  .table th, .table td {
+    padding: 10px 8px;
+  }
+}
